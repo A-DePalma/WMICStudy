@@ -58,8 +58,8 @@ params:
     profileMode:
           enabled: true
           title: Well-being Multi-Instrument Comparison Study
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          subtitle: "The Well-being Multi-Instrument Comparison Study (W-MIC) examines how different well-being measures perform when evaluating interventions that aim to improve quality of life rather than health alone, such as non-curative and supportive care. By systematically comparing multiple well-being questionnaires across large-scale survey data and clinical case studies, the project seeks to identify which measures are most appropriate for different contexts and populations. The ultimate goal of W-MIC is to support better-informed decisions in research, policy, and funding by improving how well-being is measured in economic evaluations."
+          imageUrl: "logo.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -109,7 +109,7 @@ params:
         hiddenInSingle: true
     label:
       text: "W-MIC Study"
-      icon: favicon.ico
+      icon: logo.png
       iconHeight: 18
 
 markup:
