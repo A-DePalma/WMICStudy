@@ -118,7 +118,7 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn 
+        style: nord 
     tableOfContents:
         endLevel: 2
         ordered: false
