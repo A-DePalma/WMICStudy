@@ -13,22 +13,22 @@ taxonomies:
 menu:
     main:
         - name: Overview
-          url: overview/
+          url: /overview/
           weight: 1 
         - name: Papers
-          url: papers/
+          url: /papers/
           weight: 2
         - name: Reports
-          url: reports/
+          url: /reports/
           weight: 3
         - name: Data
-          url: data/
+          url: /data/
           weight: 4 
         - name: Materials
-          url: materials/
+          url: /materials/
           weight: 5
         - name: Team
-          url: team/
+          url: /team/
           weight: 6
 
 params:
@@ -47,7 +47,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["Overview","Papers","Reports","Data", "Materials", "Team"]
+    MainSections: ["overview", "papers", "reports", "data", "materials", "team"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -64,17 +64,17 @@ params:
           imageHeight: 160
           buttons:
             - name: Overview
-              url: overview/
+              url: /overview/
             - name: Papers
-              url: papers/
+              url: /papers/
             - name: Reports
-              url: reports/
+              url: /reports/
             - name: Data
-              url: data/
+              url: /data/
             - name: Team
-              url: team/
+              url: /team/
             - name: Materials
-              url: materials/
+              url: /materials/
             - name: Contact
               url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
