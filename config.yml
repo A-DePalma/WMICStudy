@@ -14,7 +14,7 @@ menu:
     main:
         - name: Overview
           url: overview/
-          weight: 5 
+          weight: 1 
         - name: Papers
           url: papers/
           weight: 2
@@ -24,6 +24,9 @@ menu:
         - name: Data
           url: data/
           weight: 4 
+        - name: Materials
+          url: materials/
+          weight: 5
         - name: Team
           url: team/
           weight: 6
@@ -44,7 +47,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["Overview","Papers","Reports","Data", "Team"]
+    MainSections: ["Overview","Papers","Reports","Data", "Materials", "Team"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -71,7 +74,7 @@ params:
             - name: Team
               url: team/
             - name: Materials
-              url: archive/
+              url: materials/
             - name: Contact
               url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
@@ -105,7 +108,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "W-MIC Study"
       icon: favicon.ico
       iconHeight: 18
 
