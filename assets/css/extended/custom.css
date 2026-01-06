@@ -52,3 +52,43 @@
 .main {
   padding-top: 1.2rem;
 }
+
+/* =========================
+   Header logo improvements
+   ========================= */
+
+/* Make logo bigger */
+.logo img {
+  height: 34px;      /* default ~18 */
+  width: auto;
+}
+
+/* Center logo vertically better */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* =========================
+   Profile layout spacing
+   ========================= */
+
+/* More breathing room from header */
+.profile {
+  padding-top: 3rem;
+}
+
+/* Profile image spacing */
+.profile .profile_inner img {
+  margin-bottom: 1.6rem;
+}
+
+/* Slightly wider profile content */
+.profile .profile_inner {
+  max-width: 860px;
+}
+
+/* Profile title refinement */
+.profile .profile_inner h1 {
+  letter-spacing: 0.3px;
+}
